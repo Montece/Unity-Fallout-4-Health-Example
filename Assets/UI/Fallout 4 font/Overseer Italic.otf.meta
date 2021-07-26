@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 5fc8ed6a6ae42ad46b4bedb09323fefd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Overseer
+  fontNames:
+  - Overseer
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 474fd73a6cbf9c14ea4e1afb57d1a880, type: 3}
+  - {fileID: 12800000, guid: 46adc55c6741cae45842e4eb4f66977c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

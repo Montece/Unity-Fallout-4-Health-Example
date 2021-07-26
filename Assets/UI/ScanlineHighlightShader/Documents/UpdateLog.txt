@@ -1,0 +1,30 @@
+====================================
+GuntranHoet’s
+Scanline Highlight Shader update log
+====================================
+
+*** v1.2 (2016/02/21) ***
++ Line movement and related parameters
++ Added Monochromatic Unobstructed shader (visible through other objects)
+
+* Fixed wrong material applied in the bump diffuse demo scene
+* Combined two shaders: PBR (metallic workflow) (with roughness map) shader and PBR (metallic workflow) (with smoothness map) shader into one PBR (metallic workflow) shader
+* Renamed 'Bump Diffuse' shader to 'Diffuse Bump' to have this shader type grouped in the shader dropdown menu together with the 'Diffuse' shader
+
+*** v1.1 (2016/02/13) ***
++ Added shader package documentation file
++ Added shader package update log
++ Added new shaders:
+    - Monochromatic shader
+    - Bicolor shader
+    - PBR (metallic workflow) (with roughness map) shader
+    - PBR (metallic workflow) (with smoothness map) shader
+
+* Optimized some existing shaders:
+    - Albedo & normal maps use the same UV-coordinates
+    - Added some checks that skip calculations if certain sliders are zero (0)
+    - Changed variables from fixed3 or fixed4 to fixed when only one channel was used
+
+
+*** v1.0 (2016/02/07) ***
+Original uploaded version.
